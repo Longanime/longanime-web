@@ -1,0 +1,19 @@
+# PostgreSQL
+#   gem 'pg'
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: longanime_development
+  pool: 5
+  host: localhost
+  username: familins
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: longanime_test
+  pool: 5
+  host: localhost
+  username: familins
+  password:
